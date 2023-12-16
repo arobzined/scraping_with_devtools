@@ -59,7 +59,7 @@ async def main():
 
         base_dict = dict()
 
-        for idx in range(1, 10):
+        for idx in range(1, length + 1):
             information_selector = await page.evaluate(f'document.querySelector("{all_links_base} > tr:nth-child({idx}) > td:nth-child(1) > strong > a").href')
             all_links.append(information_selector)
     
