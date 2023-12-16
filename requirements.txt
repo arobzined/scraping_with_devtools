@@ -1,0 +1,2 @@
+asyncio==3.4.3
+pyppeteer==0.2.5
